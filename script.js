@@ -48,7 +48,7 @@ function draw() {
     for (var i = 0; i < drops.length; i++)
     {
         // background color
-        ctx.fillStyle = "rgba(10,10,10, 1)";
+        ctx.fillStyle = "rgba(0,0,0, 1)";
         ctx.fillRect(i * font_size, drops[i] * font_size,font_size,font_size);
         // a random chinese character to print
         var text = characters[Math.floor(Math.random() * characters.length)];
